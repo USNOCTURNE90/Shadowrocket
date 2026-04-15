@@ -2,7 +2,8 @@ name: Sync from Surge
 
 on:
   schedule:
-    - cron: '0 * * * *' # Every hour
+    - cron: '0 * * * *' # 每60分钟运行一次
+  workflow_dispatch: # 允许手动触发
 
 jobs:
   sync:
@@ -10,14 +11,14 @@ jobs:
 
     steps:
       - name: Checkout Shadowrocket
-        uses: actions/checkout@v2
-        
+        uses: actions/checkout@v3
+
       - name: Clone Surge Repository
         run: git clone https://github.com/USNOCTURNE90/Surge.git
 
       - name: Sync Content
         run: |
-          rsync -av --delete Surge/ ./ # Syncs content from Surge to Shadowrocket
+          rsync -av --delete --exclude='.git' --exclude='.github' Surge/ .//
 
       - name: Commit and Push Changes
         run: |
