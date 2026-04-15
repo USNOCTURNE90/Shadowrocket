@@ -1,5 +1,5 @@
-# 最后更新时间: 2026-04-15 15:05:28 (北京时间)
-# 从Surge自动标准化
+# 最后更新时间: 2026-04-15 16:27:07 (北京时间)
+# 从Clash自动同步
 # 原始文件: MyDirectRules
 IP-CIDR,155.102.175.142/32
 IP-CIDR,155.102.181.182/32
@@ -92,7 +92,6 @@ DOMAIN-SUFFIX,shuidichou.com
 DOMAIN-SUFFIX,amemv.com
 DOMAIN-SUFFIX,dl.istoreos.com
 DOMAIN-SUFFIX,zjcdn.com
-DOMAIN-SUFFIX,snssdk.com
 DOMAIN-SUFFIX,douyinpic.com
 DOMAIN-SUFFIX,bytegecko.com
 DOMAIN-SUFFIX,api.doupay.com
@@ -122,11 +121,10 @@ DOMAIN-SUFFIX,st.dl.eccdnx.com
 DOMAIN-SUFFIX,dl.steam.clngaa.com
 DOMAIN-SUFFIX,xz.pphimalayanrt.com
 DOMAIN-SUFFIX,ocsp.comodoca.com
-DOMAIN-SUFFIX,fonts.ne
+DOMAIN-SUFFIX,fonts.net
 DOMAIN-SUFFIX,bazaarvoice.com
 DOMAIN-SUFFIX,static-ecst.licdn.com
-DOMAIN-SUFFIX,amazontrust.com
-DOMAIN-SUFFIX,ghproxy.ne
+DOMAIN-SUFFIX,ghproxy.net
 DOMAIN-SUFFIX,splashtop.com
 DOMAIN-SUFFIX,some.url
 DOMAIN-SUFFIX,crl3.digicert.com
@@ -140,7 +138,6 @@ DOMAIN-SUFFIX,logitech.io
 DOMAIN-SUFFIX,mapbox.com
 DOMAIN-SUFFIX,api.lbctrl.com
 DOMAIN-SUFFIX,event-tracking.lbctrl.com
-DOMAIN-SUFFIX,lbkrs.com
 DOMAIN-SUFFIX,nvidia.com
 DOMAIN-SUFFIX,lb-hk-desktop.oss-cn-hongkong.aliyuncs.com
 DOMAIN-SUFFIX,x1.c.lencr.org
@@ -166,4 +163,4 @@ IP-CIDR,101.47.81.229/32
 IP-CIDR,129.227.71.37/32
 IP-CIDR,52.139.169.119/32
 IP-CIDR,103.36.24.14/32
-PROCESS-NAME,OR,((PROTOCOL,UDP),(DEST-PORT,10000-20000))
+PROCESS-NAME,AND,((PROTOCOL,UDP),(DEST-PORT,10000-20000))
