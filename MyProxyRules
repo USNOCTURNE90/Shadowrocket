@@ -1,4 +1,4 @@
-# 最后更新时间: 2026-06-27 20:05:24 (北京时间)
+# 最后更新时间: 2026-06-27 20:16:25 (北京时间)
 # 从Surge自动标准化
 # 原始文件: MyProxyRules
 DOMAIN-SUFFIX,t.co
@@ -41,12 +41,6 @@ IP-CIDR,17.248.152.0/24
 DOMAIN-SUFFIX,icloud-content.com
 DOMAIN,testflight.apple.com
 DOMAIN-SUFFIX,appsto.re
-DOMAIN-SUFFIX,smoot.apple.com
-DOMAIN,guzzoni.apple.com
-DOMAIN,apple-relay.cloudflare.com
-DOMAIN,apple-relay.fastly-edge.com
-DOMAIN,cp4.cloudflare.com
-DOMAIN,apple-relay.apple.com
 DOMAIN,amp-api.podcasts.apple.com
 DOMAIN,beta.music.apple.com
 DOMAIN,books.itunes.apple.com
