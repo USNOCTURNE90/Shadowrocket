@@ -1,6 +1,9 @@
-# 最后更新时间: 2026-11-08 20:58:48 (北京时间)
+# 最后更新时间: 2026-11-11 13:49:17 (北京时间)
 # 从Surge自动标准化
 # 原始文件: USproxyRules
+PROCESS-NAME,Claude
+PROCESS-NAME,Claude code
+PROCESS-NAME,claude
 DOMAIN-SUFFIX,fbsbx.com
 DOMAIN-SUFFIX,linkedin.com
 DOMAIN-SUFFIX,crashlytics.com
